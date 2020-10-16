@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorText"
+    tools:context=".RegistrasiActivity">
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Your Account"
+        android:fontFamily="@font/monlight"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/registrasi"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/name"
+                android:hint="Name"
+                android:fontFamily="@font/monlight"
+                android:textSize="14sp"
+                android:inputType="textPersonName"
+                android:textColor="#DE000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/email"
+                android:hint="Email"
+                android:fontFamily="@font/monlight"
+                android:textSize="14sp"
+                android:inputType="textEmailAddress"
+                android:textColor="#DE000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/password"
+                android:fontFamily="@font/monlight"
+                android:textSize="14sp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#DE000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/c_password"
+                android:fontFamily="@font/monlight"
+                android:textSize="14sp"
+                android:hint="Confrim Password"
+                android:inputType="textPassword"
+                android:textColor="#DE000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+
+            android:id="@+id/btn_regist"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:textSize="14sp"
+            android:textColor="@color/colorText"
+            android:background="@drawable/button"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

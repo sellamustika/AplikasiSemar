@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550590865288",
+    "firebase_url": "https://bpjssemar.firebaseio.com",
+    "project_id": "bpjssemar",
+    "storage_bucket": "bpjssemar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550590865288:android:2fe8d7b6fa5abf70b3a43d",
+        "android_client_info": {
+          "package_name": "com.example.aplikasisemar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550590865288-96t4hbrkd8edvnu6r65573nn10pfsp1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasisemar",
+            "certificate_hash": "5686d41bbafa0714de2727719f57c9bd3b00dc11"
+          }
+        },
+        {
+          "client_id": "550590865288-e4rqs86cij48bf3oi9fh6p3dl0nsf5qn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTed1NWgIWT6k4ydCMCcXSt1S8TF98KS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550590865288-e4rqs86cij48bf3oi9fh6p3dl0nsf5qn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

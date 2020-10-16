@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_keyboard"
+                android:paddingLeft="30dp"
+                android:paddingTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:fontFamily="@font/monmedium"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="30dp"
+            android:text="KIS (Kartu Indoneisa Sehat)"
+            android:textSize="18sp"
+            android:fontFamily="@font/monlight"
+            android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kisjkn"
+                />
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monlight"
+                android:textSize="14sp"
+                android:inputType="textMultiLine"
+                android:text="Kartu Indonesia Sehat merupakan Kartu yang telah diremiskan oleh Presiden Jokowidodo pada tahun 2014."
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="KIS (Kartu Indoneisa Sehat)"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/monlight"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/kisjkn"
+                    />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/monlight"
+                    android:textSize="14sp"
+                    android:inputType="textMultiLine"
+                    android:text="Kartu Indonesia Sehat merupakan Kartu yang telah diremiskan oleh Presiden Jokowidodo pada tahun 2014."
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slideimage"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideimage"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/monmedium"
+        android:paddingTop="20dp"
+        android:text="Heading"
+        android:textColor="@color/colorText"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_heading"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/monlight"
+        android:padding="35dp"
+        android:textColor="@color/colorText"
+        android:text="Sub heading sells mdnjkgk dmdkk dkkf mfkfg kfl kfkgkg kfkkg "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+</RelativeLayout>

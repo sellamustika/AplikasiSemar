@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/monmedium"
+            android:text="PENGADUAN"
+            android:textAlignment="center"
+            android:textSize="26sp"
+
+            >
+
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="27dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:src="@drawable/ic_move_forward"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:fontFamily="@font/monlight"
+            android:text="Step"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="410dp"
+            android:fontFamily="@font/monmedium"
+            android:text="Tata Cara :"
+            android:textSize="26sp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/monlight"
+            android:text="@string/panduan"
+            android:textSize="12sp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:fontFamily="@font/monlight"
+            android:text="@string/panduan2"
+            android:textSize="12sp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:fontFamily="@font/monlight"
+            android:text="@string/panduan3"
+            android:textSize="12sp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="150dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:textColor="#ffffff"
+            android:background="@drawable/button"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:fontFamily="@font/monmedium"
+            android:layout_marginTop="530dp"
+            android:layout_marginBottom="30dp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Aplikasi Semar</string>
+    <string name="panduan">Salurkan Kritik dan Saranmu denggan mengisi pada form yang tersedia</string>
+    <string name="panduan2">Pengaduan juga dapat ditambhaahkan</string>
+    <string name="panduan3">Tulis dengan kalimat yang sopan dan tidak bernada kasar</string>
+
+
+    <string name="Iuran">1. Bagi peserta Penerima Bantun Iuran (PBI) Jaminan Kesehatan iuran dibayar oleh Pemerintah.</string>
+    <string name="Iuran2">  2. Iuran untuk keluarga tambahan Pekerja Penerima Upah yang terdiri dari anak ke 4 dan seterusnya, ayah, ibu dan mertua, besaran iuran sebesar sebesar 1% (satu persen) dari dari gaji atau upah per orang per bulan, dibayar oleh pekerja penerima upah. </string>
+    <string name="Iuran3">3. Iuran bagi kerabat lain dari pekerja penerima upah (seperti saudara kandung/ipar, asisten rumah tangga, dll); peserta pekerja bukan penerima upah serta iuran peserta bukan pekerja adalah sebesar:</string>
+
+    <string name="Iuran4">a. Sebesar Rp. 42.000,- (empat puluh dua ribu rupiah) per orang per bulan dengan manfaat pelayanan di ruang perawatan Kelas III.</string>
+
+    <string name="Iuran5">b. Sebesar Rp. 110.000,- (seratus sepuluh ribu rupiah) per orang per bulan dengan manfaat pelayanan di ruang perawatan Kelas II.</string>
+
+    <string name="Iuran6">c. Sebesar Rp. 160.000,- (seratus enam puluh ribu rupiah) per orang per bulan dengan manfaat pelayanan di ruang perawatan Kelas I.</string>
+
+    <string name="kis1">KIS adalah program yang dikeluarkan oleh presiden Joko Widodo dan wakil presiden Jusuf Kalla pada tahun 2014 untuk membuat rakyat lebih sehat dan sejahtera.
+</string>
+    <string name="kis2">Kartu Indonesia Sehat (KIS) sendiri adalah kartu yang memiliki fungsi untuk memberikan jaminan kesehatan kepada masyarakat untuk mendapatkan pelayanan kesehatan secara gratis. Penggunanya sendiri dapat menggunakan fungsi KIS ini di setiap fasilitas kesehatan tingkat pertama dan tingkat lanjut.
+</string>
+
+    <string name="kis3">KIS dan BPJS Kesehatan memang memiliki perbedaan. Perbedaan utamanya sebenarnya nampak dengan jelas pada sasaran atau orang yang menerimanya. Jika BPJS merupakan sebuah program yang anggotanya harus mendaftar dan membayar iuran, maka KIS anggotanya diambil dari masyarakat yang tidak mampu dan pemberian kartunya ditetapkan oleh pemerintah serta pembayaran iurannya ditanggung oleh pemerintah. Perbedaan lain dari BPJS dan KIS adalah:
+</string>
+
+    <string name="kis4">1. KIS merupakan jaminan kesehatan yang diperuntukan bagi masyarakat yang tidak mampu, sedangkan BPJS yaitu sebuah badan atau lembaga yang menyelenggarakan dan mengelola jaminan kesehatan tersebut.
+</string>
+    <string name="kis5">2. KIS hanya diperuntukan bagi seseorang yang di mana kondisi ekonominya sangat lemah, sedangkan BPJS merupakan jaminan kesehatan yang diwajibkan bagi setiap warga Negara Indonesia baik yang mampu atau pun tidak mampu. Bagi rakyat yang tidak mampu, iurannya ditanggung oleh pemerintah.
+</string>
+
+    <string name="kis6">3. Pemakaian KIS dapat dilakukan di mana saja, baik di klinik, puskesmas atau di rumah sakit mana pun yang ada di Indonesia. Sedangkan pemakaian BPJS hanya berlaku di klinik atau puskesmas yang telah didaftarkan saja.
+</string>
+
+    <string name="kis7">4. KIS dapat digunakan tidak hanya untuk pengobatan saja, tetapi juga dapat digunakan untuk melakukan pencegahan. Sedangkan penggunaan BPJS hanya dapat digunakan jika kondisi kesehatan peserta sudah benar-benar sakit atau harus dirawat.
+</string>
+
+    <string name="kis8">5. KIS merupakan jenis jaminan kesehatan yang mendapatkan subsidi dari pemerintah, sedangkan pengguna BPJS diwajibkan untuk membayar iuran setiap bulannya dengan jumlah yang telah ditentukan.
+</string>
+
+
+</resources>

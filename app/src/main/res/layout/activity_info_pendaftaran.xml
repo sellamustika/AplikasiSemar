@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark2"
+    tools:context=".Info_pendaftaran">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dotsLayout"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/ic_more"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:background="@color/opt_round_card_view_shadow_end_color"
+        android:text="Back"
+        android:visibility="invisible"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/opt_round_card_view_shadow_end_color"
+        android:paddingLeft="310dp"
+        android:text="Next"
+        android:textColor="@color/colorText" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/prev"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:visibility="invisible"-->
+        <!--android:background="@drawable/ic_navigate"-->
+        <!--android:layout_below="@+id/slideViewPager"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/next"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_marginLeft="300dp"-->
+        <!--android:background="@drawable/ic_navigate_next_hijau"-->
+        <!--android:layout_below="@+id/slideViewPager"/>-->
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:text="Sampookong"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ic_navigate_next_hijau"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:id="@+id/nama"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/monlight"
+            android:textSize="18sp"
+            android:text="sampokong merupakan tempat agama"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/monlight"
+            android:text="Tanggal Tanggapan"
+            android:textAllCaps="true"
+            android:textColor="#D85E5C5C"
+            />
+
+        <TextView
+            android:id="@+id/updated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:paddingTop="15dp"
+            android:paddingLeft="130dp"
+            android:fontFamily="@font/monlight"
+            android:text="Sampookong"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

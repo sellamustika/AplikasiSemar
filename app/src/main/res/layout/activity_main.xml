@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:translationX="-288dp"
+        android:id="@+id/mainmenu"
+        android:orientation="vertical"
+        android:background="#008577"
+        android:layout_width="280dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/userpicb"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favicon"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:text="nara"
+            android:textColor="#FFF"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:fontFamily="@font/monlight"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/email"
+            android:text="nara@gmail.com"
+            android:fontFamily="@font/monlight"
+            android:textColor="#FFF"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ex"
+            android:gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bgbtnmenu"
+            android:fontFamily="@font/monlight"
+            android:textColor="#FFF"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/info"
+            android:gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bgbtnmenu"
+            android:fontFamily="@font/monlight"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="JKN-KIS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ms"
+            android:gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bgbtnmenu"
+            android:fontFamily="@font/monlight"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="Alur Pendaftaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/st"
+            android:gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bgbtnmenu"
+            android:fontFamily="@font/monlight"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="Pengaduan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/bgbtnmenu"
+            android:fontFamily="@font/monlight"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="Log Out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:translationX="-288dp"
+        android:id="@+id/maincontent"
+        android:layout_width="416dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnmenu"
+            android:background="@drawable/favicon"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="18dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimaryDark3">
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon"
+                />
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="230dp">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <ImageView
+                            android:id="@+id/btn_1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/tangan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="KIS - JKN"
+                            android:textColor="#6f6f6f"
+                            android:textSize="12dp"
+                            android:fontFamily="@font/monlight"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <ImageView
+                            android:id="@+id/btn_2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/com" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Pengaduan"
+                            android:textColor="#6f6f6f"
+                            android:textSize="12dp"
+                            android:fontFamily="@font/monlight"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <ImageView
+                            android:id="@+id/btn_3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/iur" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Iuran"
+                            android:textColor="#6f6f6f"
+                            android:textSize="12dp"
+                            android:fontFamily="@font/monlight"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <ImageView
+                            android:id="@+id/btn_4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/pendaftaran" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Pendaftaran"
+                            android:textColor="#6f6f6f"
+                            android:textSize="12dp"
+                            android:fontFamily="@font/monlight"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

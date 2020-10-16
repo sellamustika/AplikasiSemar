@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/monlight"
+            android:text="Sampookong"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+            <TextView
+                android:id="@+id/created"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8sp"
+                android:fontFamily="@font/monlight"
+                android:paddingTop="15dp"
+                android:paddingLeft="250dp"
+                android:text="Sampookong"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/monlight"
+            android:textSize="20sp"
+            android:text="sampokong merupakan tempat agama"
+            />
+    </LinearLayout>
+</LinearLayout>

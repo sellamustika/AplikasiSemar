@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_marginTop="30dp"
+            android:src="@drawable/iconbpjs"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/login"
+            android:layout_width="170dp"
+            android:layout_height="190dp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:fontFamily="@font/monmedium"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="0dp"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:textColor="#DE000000"
+                android:id="@+id/email"
+                android:fontFamily="@font/monlight"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutemail"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:fontFamily="@font/monlight"
+                android:textSize="14sp"
+                android:textColor="#DE000000"
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/layoutpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <Button
+
+            android:id="@+id/btn_login"
+            android:layout_width="180sp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:fontFamily="@font/monlight"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:background="@drawable/button"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/link_regist"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Register"
+            android:fontFamily="@font/monlight"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
